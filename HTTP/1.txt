@@ -1,0 +1,33 @@
+浏览器
+:authority: api.bilibili.com
+:method: GET
+:path: /x/web-interface/nav
+:scheme: https
+accept: */*
+accept-encoding: gzip, deflate, br
+accept-language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+cookie: buvid3=98AD4777-D9F8-16FC-EECF-3340A551C74627160infoc; i-wanna-go-back=-1; _uuid=8FCE9FE1-93A8-3667-D795-9FE81A6A710E728296infoc; buvid4=37A8E3C4-72CF-E860-AC54-01336EDE530928998-022021611-ln7uf4vr5zVxZYff126KZQ%3D%3D; buvid_fp_plain=undefined; buvid_fp=6d63cfe23ec105db8ea2493a19bcc338; SESSDATA=a6d4326e%2C1660533549%2Ca27b7%2A21; bili_jct=faf0ac95383452fda397f7fb687370d5; DedeUserID=3017488; DedeUserID__ckMd5=d001e8f2c93b39c6; sid=a5cy6rb7; b_ut=5; CURRENT_BLACKGAP=0; blackside_state=0; rpdid=|(J|)JJ~|uk|0J'uYRl|uYkkJ; CURRENT_QUALITY=80; LIVE_BUVID=AUTO2116459537675628; bp_t_offset_3017488=633334189627801664; PVID=1; go_old_video=1; CURRENT_FNVAL=4048; bp_video_offset_3017488=635839083284791300; fingerprint3=f03ec1f75ebc1b26adec08a54c3fa05e; fingerprint=6b1791ee4338a19e98e002aa4ccc12f0; b_lsid=5F7101F1D_17F7242403B; innersign=0
+origin: https://www.bilibili.com
+referer: https://www.bilibili.com/
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Microsoft Edge";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+sec-fetch-dest: empty
+sec-fetch-mode: cors
+sec-fetch-site: same-site
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.36
+
+------------------------------------------------------------------------------
+1.txt
+accept-language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+cookie: buvid3=98AD4777-D9F8-16FC-EECF-3340A551C74627160infoc; i-wanna-go-back=-1; _uuid=8FCE9FE1-93A8-3667-D795-9FE81A6A710E728296infoc; buvid4=37A8E3C4-72CF-E860-AC54-01336EDE530928998-022021611-ln7uf4vr5zVxZYff126KZQ%3D%3D; buvid_fp_plain=undefined; buvid_fp=6d63cfe23ec105db8ea2493a19bcc338; SESSDATA=a6d4326e%2C1660533549%2Ca27b7%2A21; bili_jct=faf0ac95383452fda397f7fb687370d5; DedeUserID=3017488; DedeUserID__ckMd5=d001e8f2c93b39c6; sid=a5cy6rb7; b_ut=5; CURRENT_BLACKGAP=0; blackside_state=0; rpdid=|(J|)JJ~|uk|0J'uYRl|uYkkJ; CURRENT_QUALITY=80; LIVE_BUVID=AUTO2116459537675628; bp_t_offset_3017488=633334189627801664; PVID=1; go_old_video=1; CURRENT_FNVAL=4048; bp_video_offset_3017488=635839083284791300; fingerprint3=f03ec1f75ebc1b26adec08a54c3fa05e; fingerprint=6b1791ee4338a19e98e002aa4ccc12f0; b_lsid=5F7101F1D_17F7242403B; innersign=0
+origin: https://www.bilibili.com
+referer: https://www.bilibili.com/
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="99", "Microsoft Edge";v="99"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "Windows"
+sec-fetch-dest: empty
+sec-fetch-mode: cors
+sec-fetch-site: same-site
+user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36 Edg/99.0.1150.36
+-------------------------------------------------------------------

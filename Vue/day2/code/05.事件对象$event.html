@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 希望Vue能控制下面的div，将数据填充进去 -->
+    <div id="app">
+        <p>count的值是：{{ count }}</p>
+        <!-- count为偶数，背景为红色，否则取消颜色 -->
+        <!-- <button @click="add">+N</button> -->
+        <button @click="add($event, 1)">+N</button>
+    </div>
+
+    <!-- 1. 导入vue的库文件 在window全局有了Vue构造函数 -->
+    <script src="./lib/vue.js"></script>
+    <!-- 2. 创建Vue的实例对象 -->
+    <script>
+        // 创建Vue实例对象
+        const vm = new Vue({
+            // el属性为固定写法，表示当前vm实例要控制页面上的哪个区域，接收的值是一个选择器
+            el: '#app',
+            // data对象就是要渲染到页面上的数据
+            data: {
+                count: 0,
+            },
+            methods: {
+                // 传参 事件对象会被覆盖
+                add(e, n) {
+                    this.count += n
+                    console.log(e)
+
+                    // 判断this.count的值是否为偶数
+                    if (this.count % 2 === 0) {
+                        // 偶数
+                        e.target.style.backgroundColor = 'red'
+                    } else {
+                        // 奇数
+                        e.target.style.backgroundColor = ''
+                    }
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

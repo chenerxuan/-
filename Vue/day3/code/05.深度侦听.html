@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <input type="text" v-model="info.username">
+    </div>
+
+    <script src="./lib/vue.js"></script>
+    <script src="./lib/jquery.js"></script>
+    <script>
+        const vm = new Vue({
+            el: '#app',
+            data: {
+                // 用户的信息对象
+                info: {
+                    username: 'admin'
+                }
+            },
+            watch: {
+                // info: {
+                //     handler(newVal) {
+                //         console.log(newVal);
+                //     },
+                //     // 开启深度侦听，只要对象中任何属性变化都会触发侦听
+                //     deep: true,
+                // }
+                'info.username'(newVal) {
+                    console.log(newVal);
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>

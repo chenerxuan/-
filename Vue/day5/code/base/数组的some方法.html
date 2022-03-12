@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    const arr = ['小红', '大红', '苏大强', '宝']
+
+    // forEach循环一旦开始无法中间退出 性能不高
+    // arr.forEach((item, index) => {
+    //     console.log('ok');
+    //     if(item === '苏大强') {
+    //         console.log(index);
+    //         return
+    //     }
+    // })
+
+    // 从数组找元素 some 比较合适
+    arr.some((item, index) => {
+        console.log('ok');
+        if(item === '苏大强'){
+            console.log(index);
+            // 找到目标后 通过 return true 固定语法终止循环
+            return true
+        }
+    })
+
+</script>
+</html>
